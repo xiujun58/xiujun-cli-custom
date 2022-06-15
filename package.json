@@ -1,0 +1,13 @@
+{
+    "name": "root",
+    "private": true,
+    "workspaces": [
+        "packages/*"
+    ],
+    "scripts": {
+        "create":"node packages/xiujun-cli/bin/vue.js hello-world"
+    },
+    "devDependencies": {
+        "lerna": "^4.0.0"
+    }
+}

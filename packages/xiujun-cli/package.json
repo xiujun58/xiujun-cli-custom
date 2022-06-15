@@ -1,0 +1,27 @@
+{
+    "name": "xiujun-cli",
+    "version": "0.0.0",
+    "description": "> TODO: description",
+    "author": "xiujun58 <xiujunyongyuan@163.com>",
+    "homepage": "",
+    "license": "ISC",
+    "bin": {
+        "xiujun-cli": "bin/vue.js"
+    },
+    "files": [
+        "lib"
+    ],
+    "scripts": {
+        "test": "node bin/vue.js"
+    },
+    "dependencies": {
+        "commander": "^9.3.0",
+        "ejs": "^3.1.8",
+        "fs-extra": "^10.1.0",
+        "globby": "^13.1.2",
+        "inquirer": "^8.2.4",
+        "isbinaryfile": "^5.0.0",
+        "lodash.clonedeep": "^4.5.0",
+        "minimist": "^1.2.6"
+    }
+}
